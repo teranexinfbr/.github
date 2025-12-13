@@ -1,0 +1,29 @@
+name: 🔐 Reportar Vulnerabilidade
+description: Reporte falhas de segurança de forma responsável
+title: "[SECURITY] "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Não divulgue vulnerabilidades publicamente.**
+        Use este formulário apenas se orientado pela equipe Teranex.
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da vulnerabilidade
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto potencial
+    validations:
+      required: true
+
+  - type: textarea
+    id: mitigacao
+    attributes:
+      label: Sugestão de mitigação (opcional)
