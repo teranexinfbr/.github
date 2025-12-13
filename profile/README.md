@@ -1,103 +1,104 @@
 # 🏢 Teranex Informática
 
-A **Teranex Informática** é uma empresa especializada em **soluções de Tecnologia da Informação**,
-atuando com infraestrutura, automação, sistemas corporativos e suporte técnico.
-Nosso foco é entregar ambientes **seguros, organizados, eficientes e escaláveis**.
+A **Teranex Informática** é uma empresa especializada em **Soluções de Tecnologia da Informação**, com atuação focada em **infraestrutura, automação, sistemas corporativos e suporte técnico especializado**.
 
-![TeraNex Banner](https://via.placeholder.com/1000x300?text=TeraNex+Technology+Solutions)
+Nosso objetivo é projetar e manter ambientes **seguros, organizados, eficientes e escaláveis**, alinhados às necessidades operacionais e estratégicas de cada cliente.
+
+![Teranex Banner](https://via.placeholder.com/1000x300?text=Teranex+Technology+Solutions)
+
 [![GitHub License](https://img.shields.io/github/license/TeraNex/repo-template?style=flat-square&color=blue)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/teranexinfbr)
-[![Website](https://img.shields.io/badge/Website-teranex.com.br-blueviolet?style=flat-square&logo=google-chrome)](https://teranex.inf.br)
+[![Website](https://img.shields.io/badge/Website-teranex.com.br-blueviolet?style=flat-square&logo=google-chrome)](https://teranex.com.br)
 
 ---
 
 ## 🎯 Missão
-Oferecer soluções de TI confiáveis e bem estruturadas, auxiliando empresas na otimização
-de processos, segurança da informação e continuidade operacional.
 
-Atuamos na interseção entre suporte técnico especializado, administração de servidores e desenvolvimento de automações para otimizar fluxos de trabalho.
+Oferecer soluções de TI **confiáveis, bem estruturadas e alinhadas às boas práticas do mercado**, auxiliando empresas na **otimização de processos**, **segurança da informação** e **continuidade operacional**.
+
+Atuamos na interseção entre **suporte técnico especializado**, **administração de servidores** e **desenvolvimento de automações**, promovendo ambientes mais estáveis e produtivos.
 
 ---
 
-## 📂 Projetos em Destaque
+## 🚀 Projetos em Destaque
 
-| Projeto | Descrição | Tech Stack |
+| Projeto | Descrição | Tecnologias |
 | :--- | :--- | :--- |
-| **TeraNex Automate** | Scripts de automação para configuração de ambientes Windows e instalação de softwares via Winget. | PowerShell, Batch |
-| **Infra Monitor** | Soluções para monitoramento de sensores e status de servidores. | ESP32, C++, Web |
-| **Custom ISOs** | Ferramentas para criação e deploy de imagens Windows personalizadas (Sysprep/DISM). | Windows ADK |
-| **Web Solutions** | Desenvolvimento de páginas institucionais e aplicações web. | React, JS, PHP |
+| **Automação de Instalações** | Scripts para configuração automática de ambientes Windows e instalação de softwares corporativos. | PowerShell, Batch, Winget |
+| **Monitoramento** | Soluções de monitoramento de sensores e dispositivos embarcados. | ESP32, C++, Web |
+| **Custom ISOs** | Criação e deploy de imagens Windows personalizadas utilizando Sysprep e DISM. | Windows ADK |
+| **Infraestrutura** | Planejamento e implementação de infraestruturas institucionais e aplicações web. | React, JavaScript, PHP |
 
 ---
 
-## 🎯 Nossos Pilares
-- **🔧  Infraestrutura:** Gestão de servidores, redes locais (LAN/WLAN) e serviços em nuvem.
-- **🖥️  Suporte:** Manutenção de hardware, montagem de PCs de alta performance e troubleshooting avançado.
-- **⚙️  Automação:** Criação de scripts (PowerShell/Batch) e ferramentas para deployment e manutenção de sistemas.
-- **📊  Desenvolvimento:** Soluções web e integrações personalizadas.
-- **🔐  Segurança da Informação:** Segurança e proteção de dados e infrestrutura. 
+## 🧭 Nossos Pilares
 
+- **🔧 Infraestrutura**  
+  Gestão de servidores, virtualização, redes LAN/WLAN e serviços em nuvem.
+
+- **🖥️ Suporte Técnico**  
+  Manutenção de hardware, montagem de estações de alto desempenho e troubleshooting avançado.
+
+- **⚙️ Automação**  
+  Desenvolvimento de scripts e ferramentas para deployment, padronização e manutenção de sistemas.
+
+- **📊 Desenvolvimento**  
+  Criação de soluções web, sistemas internos e integrações personalizadas.
+
+- **🔐 Segurança da Informação**  
+  Proteção de dados, controle de acessos e fortalecimento da infraestrutura contra ameaças.
+
+---
 
 ## 🧱 Organização dos Repositórios
-Os repositórios seguem um padrão interno para facilitar manutenção, segurança e escalabilidade.
 
-```
+Os repositórios seguem um padrão interno visando **padronização, segurança e escalabilidade**:
+
+```text
 teranex/
-├── infra/          # Infraestrutura, redes, virtualização
+├── infra/          # Infraestrutura, redes e virtualização
 ├── automacoes/     # Scripts e automações
 ├── sistemas/       # Sistemas internos e integrações
 ├── clientes/       # Projetos específicos de clientes
 └── docs/           # Documentação institucional
 ```
 
----
-
 ## 🔐 Segurança e Boas Práticas
-- Autenticação em dois fatores (**2FA**) obrigatória
-- Controle de acesso baseado em **times**
-- Repositórios sensíveis configurados como **privados**
-- Uso de **secrets** e variáveis de ambiente
-- Proteção de branches principais (`main`)
-- Alterações realizadas exclusivamente via **Pull Request**
 
----
+- Autenticação em dois fatores (2FA) obrigatória
+- Controle de acesso baseado em times e permissões
+- Repositórios sensíveis configurados como privados
+- Uso de secrets e variáveis de ambiente
+- Proteção das branches principais (main)
+- Alterações realizadas exclusivamente via Pull Requests
 
 ## 🔁 Fluxo de Desenvolvimento
+
 - `main` → Produção
 - `develop` → Homologação/Testes
 - `feature/*` → Novas funcionalidades
 - `fix/*` → Correções
 
-### Padrão de commits
+## 📌 Padrão de Commits
 ```
-feat: nova funcionalidade
-fix: correção
+feat: nova funcionalidadex: correção
 docs: documentação
 chore: manutenção
-refactor: refatoração
+refactor: refatoraçãoção
 ```
 
----
-
 ## 📄 Licenciamento
-Os projetos desta organização podem ser:
-- Privados (uso interno ou cliente)
-- Públicos (templates e projetos open-source)
+
+Os projetos da organização podem ser:
+
+- 🔒 Privados — uso interno ou projetos de clientes
+- 🌍 Públicos — templates, ferramentas e projetos open source
 
 Cada repositório possui sua licença definida individualmente.
 
----
+##⚠️ Aviso
 
-## 📞 Contato
-📧 E-mail: contato@teranex.com.br  
-🌐 Website: https://teranex.com.br  
+Este repositório faz parte do ambiente corporativo da Teranex Informática.
+Qualquer alteração deve seguir rigorosamente os padrões internos, fluxos definidos e políticas de segurança da empresa.
 
----
-
-## ⚠️ Aviso
-Este repositório faz parte do ambiente corporativo da **Teranex Informática**.
-Qualquer alteração deve seguir os padrões internos e políticas de segurança da empresa.
-
-<p align="center">© 2025 TeraNex Informática. Todos os direitos reservados.</p>
-
-
+<p align="center">© 2025 Teranex Informática. Todos os direitos reservados.</p>
