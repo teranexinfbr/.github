@@ -1,0 +1,37 @@
+name: 🆘 Solicitação de Suporte
+description: Solicite suporte técnico ou operacional
+title: "[SUPORTE] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Este formulário é destinado a solicitações de suporte técnico.
+
+  - type: input
+    id: cliente
+    attributes:
+      label: Cliente / Projeto
+      placeholder: Nome do cliente ou projeto
+    validations:
+      required: true
+
+  - type: textarea
+    id: solicitacao
+    attributes:
+      label: Descrição da solicitação
+      description: Descreva detalhadamente o que precisa ser feito
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Crítica
+    validations:
+      required: true
