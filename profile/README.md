@@ -1,4 +1,4 @@
-# 🏢 Teranex Informática
+# 🏢 Teranex Tecnologia
 
 A **Teranex Informática** é uma empresa especializada em **Soluções de Tecnologia da Informação**, com atuação focada em **infraestrutura, automação, sistemas corporativos e suporte técnico especializado**.
 
@@ -99,7 +99,7 @@ Cada repositório possui sua licença definida individualmente.
 
 ## ⚠️ Aviso
 
-Este repositório faz parte do ambiente corporativo da Teranex Informática.
+Este repositório faz parte do ambiente corporativo da Teranex Tecnologia.
 Qualquer alteração deve seguir rigorosamente os padrões internos, fluxos definidos e políticas de segurança da empresa.
 
-<p align="center">© 2025 Teranex Informática. Todos os direitos reservados.</p>
+<p align="center">© 2026 Teranex Tecnologia. Todos os direitos reservados.</p>
