@@ -1,44 +1,53 @@
 name: 🐞 Relatar Bug
-description: Reporte um problema para nos ajudar a melhorar
-title: "[Bug]: "
+description: Reporte um erro ou comportamento inesperado
+title: "[BUG] "
 labels: ["bug"]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por relatar um bug! Preencha as informações abaixo.
+        Obrigado por reportar este problema.
+        Forneça o máximo de detalhes possível para agilizar a análise.
 
   - type: input
-    id: environment
+    id: ambiente
     attributes:
-      label: Ambiente
-      description: Ex.: produção, staging, local
-      placeholder: produção
+      label: Ambiente afetado
+      description: Exemplo: Produção, Homologação, Cliente X
+      placeholder: Produção
     validations:
       required: true
 
   - type: textarea
-    id: description
+    id: descricao
     attributes:
       label: Descrição do problema
-      description: Explique claramente o que está acontecendo
+      description: Explique claramente o erro encontrado
     validations:
       required: true
 
   - type: textarea
-    id: steps
+    id: passos
     attributes:
       label: Passos para reproduzir
+      description: Liste os passos para reproduzir o problema
       placeholder: |
-        1. Vá para '...'
-        2. Clique em '...'
-        3. Veja o erro
+        1. Acessar sistema
+        2. Clicar em ...
+        3. Erro ocorre
     validations:
       required: true
 
   - type: textarea
-    id: expected
+    id: esperado
     attributes:
       label: Comportamento esperado
     validations:
       required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Evidências
+      description: Cole logs, prints ou mensagens de erro (se houver)
