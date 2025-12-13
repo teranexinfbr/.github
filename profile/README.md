@@ -81,7 +81,8 @@ teranex/
 
 ## 📌 Padrão de Commits
 ```
-feat: nova funcionalidadex: correção
+feat: nova funcionalidade
+fix: correção
 docs: documentação
 chore: manutenção
 refactor: refatoraçãoção
@@ -96,7 +97,7 @@ Os projetos da organização podem ser:
 
 Cada repositório possui sua licença definida individualmente.
 
-##⚠️ Aviso
+## ⚠️ Aviso
 
 Este repositório faz parte do ambiente corporativo da Teranex Informática.
 Qualquer alteração deve seguir rigorosamente os padrões internos, fluxos definidos e políticas de segurança da empresa.
