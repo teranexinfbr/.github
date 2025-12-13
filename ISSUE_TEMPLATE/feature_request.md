@@ -1,19 +1,36 @@
----
-name: ✨ Feature Request
-about: Solicitar nova funcionalidade
+name: ✨ Solicitar Funcionalidade
+description: Sugira uma nova funcionalidade ou melhoria
 title: "[FEATURE] "
-labels: enhancement
-assignees: ''
----
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para sugerir melhorias ou novas funcionalidades.
 
-## 🚀 Descrição da funcionalidade
-Explique a funcionalidade desejada.
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou necessidade
+      description: Qual problema essa funcionalidade resolve?
+    validations:
+      required: true
 
-## 🎯 Problema que resolve
-Qual problema essa feature resolve?
+  - type: textarea
+    id: solucao
+    attributes:
+      label: Solução proposta
+      description: Descreva a funcionalidade ou melhoria desejada
+    validations:
+      required: true
 
-## 🧠 Alternativas consideradas
-Outras soluções avaliadas (se houver).
-
-## 📌 Observações adicionais
-Informações extras.
+  - type: dropdown
+    id: impacto
+    attributes:
+      label: Impacto
+      options:
+        - Baixo
+        - Médio
+        - Alto
+    validations:
+      required: true
