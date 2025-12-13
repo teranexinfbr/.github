@@ -1,6 +1,6 @@
 # 🏢 Teranex Tecnologia
 
-A **Teranex Informática** é uma empresa especializada em **Soluções de Tecnologia da Informação**, com atuação focada em **infraestrutura, automação, sistemas corporativos e suporte técnico especializado**.
+A **TeraNex Tecnologia** é uma empresa especializada em **Soluções de Tecnologia da Informação**, com atuação focada em **infraestrutura, automação, sistemas corporativos e suporte técnico especializado**.
 
 Nosso objetivo é projetar e manter ambientes **seguros, organizados, eficientes e escaláveis**, alinhados às necessidades operacionais e estratégicas de cada cliente.
 
