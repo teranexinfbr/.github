@@ -8,7 +8,7 @@ Nosso objetivo é projetar e manter ambientes **seguros, organizados, eficientes
 
 [![GitHub License](https://img.shields.io/github/license/TeraNex/repo-template?style=flat-square&color=blue)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/teranexinfbr)
-[![Website](https://img.shields.io/badge/Website-teranex.com.br-blueviolet?style=flat-square&logo=google-chrome)](https://teranex.com.br)
+[![Website](https://img.shields.io/badge/Website-teranex.com.br-blueviolet?style=flat-square&logo=google-chrome)](https://teranex.inf.br)
 
 ---
 
