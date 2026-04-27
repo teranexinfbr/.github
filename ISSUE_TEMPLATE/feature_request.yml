@@ -2,6 +2,7 @@ name: ✨ Solicitar Funcionalidade
 description: Sugira uma nova funcionalidade ou melhoria
 title: "[FEATURE] "
 labels: ["enhancement"]
+assignees: []
 body:
   - type: markdown
     attributes:

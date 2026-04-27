@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/teranex.inf.br-0D1117?style=flat-square&logo=google-chrome&logoColor=58a6ff&label=site)](https://teranex.inf.br)
 [![LinkedIn](https://img.shields.io/badge/TeraNex-0D1117?style=flat-square&logo=linkedin&logoColor=58a6ff&label=linkedin)](https://linkedin.com/company/teranex)
-[![Email](https://img.shields.io/badge/contato%40teranex.inf.br-0D1117?style=flat-square&logo=gmail&logoColor=58a6ff&label=)](mailto:contato@teranex.inf.br)
+[![Email](https://img.shields.io/badge/contato%40teranex.inf.br-0D1117?style=flat-square&logo=gmail&logoColor=58a6ff&label=email)](mailto:contato@teranex.inf.br)
 ![Localização](https://img.shields.io/badge/Maceió%2C%20Alagoas-0D1117?style=flat-square&logo=googlemaps&logoColor=58a6ff)
 
 </div>
@@ -110,8 +110,11 @@ main        → Produção (protegida, somente via PR)
 develop     → Homologação / testes integrados
 feature/*   → Novas funcionalidades
 fix/*       → Correções de bugs
+hotfix/*    → Correções emergenciais de produção
 docs/*      → Atualizações de documentação
 ```
+
+---
 
 ## 📌 Padrão de Commits
 

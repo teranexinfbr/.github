@@ -1,18 +1,47 @@
 name: 🔐 Reportar Vulnerabilidade
-description: Reporte falhas de segurança de forma responsável
+description: Reporte falhas de segurança de forma responsável — leia as instruções antes de prosseguir
 title: "[SECURITY] "
 labels: ["security"]
 body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ **Não divulgue vulnerabilidades publicamente.**
-        Use este formulário apenas se orientado pela equipe Teranex.
+        ## ⚠️ Atenção antes de continuar
+
+        **Não reporte vulnerabilidades de segurança por este formulário público.**
+
+        Issues abertas aqui são visíveis a qualquer pessoa. Divulgar detalhes de uma vulnerabilidade publicamente pode colocar usuários e clientes em risco antes que a correção seja aplicada.
+
+        ### Como reportar corretamente
+
+        Siga o processo de divulgação responsável descrito em nosso **[SECURITY.md](../SECURITY.md)**:
+
+        - **E-mail:** seguranca@teranex.inf.br
+        - **Uso do GitHub Private Vulnerability Reporting** (recomendado)
+
+        Após a análise, nossa equipe retornará em até **72 horas**.
+
+        ---
+
+        Se você foi orientado pela equipe Teranex a prosseguir aqui, continue abaixo.
 
   - type: textarea
     id: descricao
     attributes:
       label: Descrição da vulnerabilidade
+      description: Descreva o problema encontrado (apenas se autorizado pela equipe)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade estimada
+      options:
+        - Crítica (CVSS 9.0–10.0)
+        - Alta (CVSS 7.0–8.9)
+        - Média (CVSS 4.0–6.9)
+        - Baixa (CVSS 0.1–3.9)
     validations:
       required: true
 

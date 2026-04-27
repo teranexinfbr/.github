@@ -1,0 +1,33 @@
+# Configuração de labels automáticas para PRs (actions/labeler v5)
+# Coloque este arquivo em .github/labeler.yml no seu repositório
+#
+# Documentação: https://github.com/actions/labeler
+
+bug:
+  - head-branch: ['^fix/', '^hotfix/']
+
+enhancement:
+  - head-branch: ['^feature/']
+
+documentation:
+  - head-branch: ['^docs/']
+  - changed-files:
+    - any-glob-to-any-file: ['**/*.md', 'docs/**/*']
+
+maintenance:
+  - head-branch: ['^chore/']
+
+ci:
+  - changed-files:
+    - any-glob-to-any-file: ['.github/workflows/**/*', '.github/dependabot.yml']
+
+dependencies:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'requirements*.txt'
+      - 'Pipfile*'
+      - 'pyproject.toml'
+      - 'Dockerfile*'
+      - 'docker-compose*.yml'

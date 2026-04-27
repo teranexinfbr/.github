@@ -1,0 +1,57 @@
+name: 📝 Solicitar Documentação
+description: Solicite criação ou atualização de runbook, procedimento ou documentação técnica
+title: "[DOCS] "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para solicitar criação ou atualização de documentação técnica, runbooks e procedimentos operacionais.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de documentação
+      options:
+        - Novo runbook
+        - Atualização de runbook existente
+        - Procedimento operacional
+        - Arquitetura / diagrama
+        - Guia de configuração
+        - Outro
+    validations:
+      required: true
+
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema / Serviço relacionado
+      placeholder: Ex: Zabbix, pfSense, Active Directory
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que precisa ser documentado
+      description: Descreva o escopo da documentação solicitada
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto e motivação
+      description: Por que essa documentação é necessária agora? Houve incidente, nova implantação, integração?
+
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Baixa
+        - Média
+        - Alta
+    validations:
+      required: true

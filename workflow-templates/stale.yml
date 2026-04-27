@@ -1,0 +1,44 @@
+name: Stale Issues e PRs
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Segunda-feira às 9h (America/Maceio ~ UTC-3 = 12h UTC)
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    name: Marcar e fechar itens inativos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          days-before-stale: 30
+          days-before-close: 7
+
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
+
+          stale-issue-message: |
+            Esta issue está sem atividade há 30 dias e foi marcada como **inativa**.
+            Será fechada automaticamente em 7 dias caso não haja atualização.
+            Se ainda for relevante, deixe um comentário ou remova a label `stale`.
+
+          stale-pr-message: |
+            Este PR está sem atividade há 30 dias e foi marcado como **inativo**.
+            Será fechado automaticamente em 7 dias caso não haja atualização.
+            Se ainda for relevante, deixe um comentário ou remova a label `stale`.
+
+          close-issue-message: |
+            Issue fechada por inatividade. Pode ser reaberta se o problema persistir.
+
+          close-pr-message: |
+            PR fechado por inatividade. Pode ser reaberto se o trabalho continuar.
+
+          exempt-issue-labels: 'pinned,security,in-progress'
+          exempt-pr-labels: 'pinned,security,in-progress'

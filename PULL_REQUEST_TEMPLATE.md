@@ -1,6 +1,9 @@
 ## 📌 Descrição
 Descreva brevemente o que este PR faz.
 
+## 🔗 Issue relacionada
+Closes #
+
 ## 🔄 Tipo de alteração
 - [ ] Bug fix
 - [ ] Nova funcionalidade

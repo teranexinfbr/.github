@@ -1,0 +1,32 @@
+name: Boas-vindas
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    name: Mensagem de boas-vindas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          issue-message: |
+            Olá! 👋 Obrigado por abrir sua primeira issue neste repositório.
+
+            Nossa equipe irá analisar em breve conforme a prioridade informada.
+            Caso precise de resposta mais rápida, entre em contato pelo e-mail **contato@teranex.inf.br**.
+
+          pr-message: |
+            Olá! 👋 Obrigado por abrir seu primeiro Pull Request neste repositório.
+
+            Por favor, verifique se o template foi preenchido corretamente e se há uma issue vinculada (`Closes #`).
+            Nossa equipe irá revisar assim que possível.

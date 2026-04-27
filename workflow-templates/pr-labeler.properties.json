@@ -1,0 +1,6 @@
+{
+  "name": "PR Labeler",
+  "description": "Aplica labels automaticamente nos PRs com base no nome da branch e arquivos alterados. Requer .github/labeler.yml no repositório.",
+  "iconName": "octicon-tag",
+  "categories": ["Automation"]
+}

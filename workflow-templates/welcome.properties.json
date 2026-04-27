@@ -1,0 +1,6 @@
+{
+  "name": "Boas-vindas",
+  "description": "Envia mensagem automática para quem abre a primeira issue ou PR no repositório.",
+  "iconName": "octicon-heart",
+  "categories": ["Automation"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Stale Issues e PRs",
+  "description": "Fecha automaticamente issues e PRs sem atividade após 30 dias (+ 7 dias de aviso). Roda toda segunda-feira.",
+  "iconName": "octicon-clock",
+  "categories": ["Automation"]
+}

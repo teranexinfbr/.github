@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Reportar Vulnerabilidade de Segurança
+    url: https://github.com/teranex/.github/security/advisories/new
+    about: Reporte vulnerabilidades de forma privada via GitHub Security Advisories
+  - name: 📧 Contato Direto de Segurança
+    url: mailto:seguranca@teranex.inf.br
+    about: Para divulgação responsável via e-mail
+  - name: 🌐 Site da TeraNex
+    url: https://teranex.inf.br
+    about: Dúvidas gerais e informações de contato

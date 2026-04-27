@@ -1,0 +1,20 @@
+# CODEOWNERS — revisores obrigatórios por área
+# Formato: <padrão de arquivo/pasta>  <@usuário ou @org/team>
+#
+# Documentação: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Configurações globais da organização (.github)
+*                           @teranex/admin
+
+# Templates de issues e PR
+ISSUE_TEMPLATE/             @teranex/admin
+PULL_REQUEST_TEMPLATE.md    @teranex/admin
+
+# Políticas de segurança
+SECURITY.md                 @teranex/admin @teranex/seguranca
+
+# Workflows reutilizáveis e templates
+workflow-templates/         @teranex/admin @teranex/devops
+
+# Perfil público da organização
+profile/                    @teranex/admin

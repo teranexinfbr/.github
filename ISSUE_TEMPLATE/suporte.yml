@@ -2,6 +2,7 @@ name: 🆘 Solicitação de Suporte
 description: Solicite suporte técnico ou operacional
 title: "[SUPORTE] "
 labels: ["support"]
+assignees: []
 body:
   - type: markdown
     attributes:
