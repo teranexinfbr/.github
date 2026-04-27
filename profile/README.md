@@ -1,9 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1a1a2e,16213e&height=200&section=header&text=TeraNex%20Tecnologia&fontSize=42&fontColor=58a6ff&fontAlignY=38&desc=Infraestrutura%20que%20funciona.%20Suporte%20que%20resolve.&descAlignY=58&descSize=16&descColor=8b949e" width="100%"/>
+⬡
 
-[![Website](https://img.shields.io/badge/teranex.inf.br-0D1117?style=flat-square&logo=google-chrome&logoColor=58a6ff&label=site)](https://teranex.inf.br)
-[![LinkedIn](https://img.shields.io/badge/TeraNex-0D1117?style=flat-square&logo=linkedin&logoColor=58a6ff&label=linkedin)](https://linkedin.com/company/teranex)
+# TeraNex
+
+---
+
+Infraestrutura · Automação · Segurança da Informação
+
+[![Website](https://img.shields.io/badge/teranex.inf.br-0D1117?style=flat-square&logo=google-chrome&logoColor=58a6ff)](https://teranex.inf.br)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=58a6ff&label=linkedin)](https://linkedin.com/company/teranex)
 [![Email](https://img.shields.io/badge/contato%40teranex.inf.br-0D1117?style=flat-square&logo=gmail&logoColor=58a6ff&label=email)](mailto:contato@teranex.inf.br)
 ![Localização](https://img.shields.io/badge/Maceió%2C%20Alagoas-0D1117?style=flat-square&logo=googlemaps&logoColor=58a6ff)
 
@@ -11,23 +17,15 @@
 
 ---
 
-## 🏢 Sobre
-
-A **TeraNex Tecnologia** é uma empresa especializada em **Soluções de Tecnologia da Informação**, com atuação focada em infraestrutura, automação, sistemas corporativos e suporte técnico especializado.
-
-Nosso objetivo é projetar e manter ambientes **seguros, organizados, eficientes e escaláveis**, alinhados às necessidades operacionais e estratégicas de cada cliente — desde pequenas empresas até instituições de ensino e setor público.
-
----
-
-## 🎯 Missão
-
-Oferecer soluções de TI **confiáveis, bem estruturadas e alinhadas às boas práticas do mercado**, auxiliando organizações na otimização de processos, segurança da informação e continuidade operacional.
-
-Atuamos na interseção entre **suporte técnico especializado**, **administração de servidores** e **desenvolvimento de automações**, promovendo ambientes mais estáveis e produtivos.
+| &nbsp; | &nbsp; | &nbsp; |
+| :---: | :--- | :--- |
+| 🔧 | **Infraestrutura robusta** | Proxmox, VMware, redes LAN/WAN, Windows Server, alta disponibilidade |
+| ⚙️ | **Automação & Monitoramento** | Zabbix + Grafana + InfluxDB, scripts PowerShell/Bash/Python, alertas proativos |
+| 🔐 | **Segurança & Identidade** | Active Directory, Samba4, GPO, hardening, Cloudflare, controle de acesso |
 
 ---
 
-## 🛠️ Stack & Especialidades
+## 🛠️ Stack
 
 **Infraestrutura & Virtualização**
 
@@ -63,22 +61,44 @@ Atuamos na interseção entre **suporte técnico especializado**, **administraç
 
 ---
 
-## 🧭 Nossos Pilares
+## 🔁 Como trabalhamos
 
-| Pilar | Descrição |
-| :--- | :--- |
-| 🔧 **Infraestrutura** | Gestão de servidores, virtualização (Proxmox/VMware), redes LAN/WLAN e serviços em nuvem |
-| 🖥️ **Suporte Técnico** | Manutenção preventiva e corretiva, hardware, troubleshooting avançado e suporte a usuários |
-| ⚙️ **Automação** | Scripts e ferramentas para deployment, padronização e manutenção de ambientes |
-| 📊 **Monitoramento** | Stacks Zabbix + Grafana + InfluxDB para visibilidade total do ambiente |
-| 🔐 **Segurança** | Active Directory, controle de acesso, GPOs, proteção de dados e hardening |
-| 🌐 **Desenvolvimento** | Sistemas internos, aplicações web e integrações personalizadas |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Fluxo de branches**
+
+```
+main      → produção (protegida, via PR)
+develop   → homologação
+feature/* → novas funcionalidades
+fix/*     → correções de bugs
+hotfix/*  → emergências de produção
+docs/*    → documentação
+```
+
+</td>
+<td width="50%" valign="top">
+
+**Padrão de commits**
+
+```
+feat:     nova funcionalidade
+fix:      correção de bug
+docs:     documentação
+chore:    manutenção
+refactor: refatoração
+ci:       pipelines
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📦 Organização dos Repositórios
-
-Os repositórios seguem nomenclatura por prefixo para facilitar navegação e automação:
+## 📦 Repositórios
 
 | Prefixo | Categoria |
 | :--- | :--- |
@@ -93,56 +113,13 @@ Os repositórios seguem nomenclatura por prefixo para facilitar navegação e au
 
 ---
 
-## 🔐 Segurança e Boas Práticas
+## 🏢 Sobre
 
-- 2FA obrigatório para todos os membros
-- Controle de acesso baseado em teams e permissões por repositório
-- Repositórios sensíveis configurados como privados
-- Secrets e variáveis de ambiente nunca versionados
-- Branch protection ativa na `main` — alterações exclusivamente via Pull Request
-
----
-
-## 🔁 Fluxo de Desenvolvimento
-
-```
-main        → Produção (protegida, somente via PR)
-develop     → Homologação / testes integrados
-feature/*   → Novas funcionalidades
-fix/*       → Correções de bugs
-hotfix/*    → Correções emergenciais de produção
-docs/*      → Atualizações de documentação
-```
-
----
-
-## 📌 Padrão de Commits
-
-```
-feat:     nova funcionalidade
-fix:      correção de bug
-docs:     atualização de documentação
-chore:    manutenção e configuração
-refactor: refatoração sem mudança de comportamento
-ci:       pipelines e automação de CI/CD
-```
-
----
-
-## 📄 Licenciamento
-
-Os projetos da organização podem ser:
-
-- 🔒 **Privados** — uso interno ou projetos de clientes
-- 🌍 **Públicos** — templates, ferramentas e scripts open source
-
-Cada repositório possui sua licença definida individualmente.
+A **TeraNex Tecnologia** é especializada em soluções de TI para empresas, instituições de ensino e setor público em Maceió, AL. Projetamos e mantemos ambientes seguros, organizados e escaláveis — da infraestrutura ao suporte especializado.
 
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,1a1a2e,16213e&height=100&section=footer" width="100%"/>
 
 <sub>© 2026 TeraNex Tecnologia · Maceió, Alagoas · Todos os direitos reservados.</sub>
 
